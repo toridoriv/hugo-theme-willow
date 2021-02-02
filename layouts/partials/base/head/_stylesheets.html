@@ -1,0 +1,22 @@
+<!-- 📍 Main SCSS -->
+{{ $sassOptions := (dict "targetPath" "css/main.css"  "outputStyle" "compressed" "enableSourceMap" true) }}
+{{ $sassMainFile := resources.Get "scss/main.scss" | resources.ToCSS $sassOptions | fingerprint  }}
+<link href="{{ $sassMainFile.RelPermalink }}" rel="stylesheet">
+<!-- 📍 Base Inline -->
+{{ with resources.Get "scss/base/_base.scss" | toCSS | minify }}
+<style>
+  {{ .Content | safeCSS }}
+</style>
+{{ end }}
+<!-- 📍 Pages Inline -->
+{{ if .IsHome }}
+  {{ with resources.Get "scss/pages/_home.scss" | toCSS | minify }}
+    <style>
+      {{ .Content | safeCSS }}
+    </style>
+  {{ end }}
+{{ end }}
+<!-- 📍 Debug -->
+{{ with .Site.Params.debug.enabled }}
+  <link rel="stylesheet" href="{{ "css/debug.css" | relURL }}">
+{{ end }}

@@ -1,0 +1,10 @@
+# dependencies
+node_modules/
+
+# production
+/build
+
+# software specific
+.DS_Store
+.nova
+.vscode

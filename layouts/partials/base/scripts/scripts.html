@@ -1,0 +1,4 @@
+{{ with .Site.Params.debug.enabled }}
+  {{ partial "base/scripts/_debug.html" }}
+{{ end }}
+{{ partial "base/scripts/_app.html" }}

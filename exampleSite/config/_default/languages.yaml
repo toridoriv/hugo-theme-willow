@@ -1,0 +1,21 @@
+en:
+  contentdir: "content/en"
+  languageCode: en
+  languageName: English
+  flag: 🇺🇸
+  weight: 1
+
+es:
+  contentdir: "content/es"
+  languageCode: es
+  languageName: Español
+  flag: 🇨🇱
+  weight: 2
+  
+pt:
+  contentdir: "content/pt"
+  languageCode: pt
+  languageName: Português
+  flag: 🇧🇷
+  weight: 3
+  

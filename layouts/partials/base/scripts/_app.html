@@ -1,0 +1,8 @@
+{{ $scriptConstants := resources.Get "js/_constants.js" }}
+{{ $scriptUtils := resources.Get "js/_utils.js" }}
+{{ $scriptDrag := resources.Get "js/_drag.js" }}
+{{ $scriptIcon := resources.Get "js/_iconGUI.js" }}
+{{ $scriptWindow := resources.Get "js/_windowGUI.js" }}
+{{ $scriptMain := resources.Get "js/app.js" }}
+{{ $js := slice $scriptConstants $scriptUtils $scriptDrag $scriptIcon $scriptWindow $scriptMain | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>

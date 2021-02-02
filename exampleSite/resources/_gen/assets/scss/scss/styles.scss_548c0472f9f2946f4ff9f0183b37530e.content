@@ -1,0 +1,245 @@
+/* $medium-border: 1rem / 2!default;
+$large-border: 1rem!default; */
+/* $large-spacing: 1rem * 3!default;
+ */
+.has-bg-black-light {
+  background-color: #64697d;
+  color: #e2e3e9; }
+
+.has-text-black-light {
+  color: #64697d; }
+
+.has-border-black-light {
+  border-color: #64697d; }
+
+.has-bg-black-base {
+  background-color: #2b2e3b;
+  color: #e2e3e9; }
+
+.has-text-black-base {
+  color: #2b2e3b; }
+
+.has-border-black-base {
+  border-color: #2b2e3b; }
+
+.has-bg-black-dark {
+  background-color: #202128;
+  color: #e2e3e9; }
+
+.has-text-black-dark {
+  color: #202128; }
+
+.has-border-black-dark {
+  border-color: #202128; }
+
+.has-bg-blue-light {
+  background-color: #cdb3f2;
+  color: #2b2e3b; }
+
+.has-text-blue-light {
+  color: #cdb3f2; }
+
+.has-border-blue-light {
+  border-color: #cdb3f2; }
+
+.has-bg-blue-base {
+  background-color: #b580ff;
+  color: #2b2e3b; }
+
+.has-text-blue-base {
+  color: #b580ff; }
+
+.has-border-blue-base {
+  border-color: #b580ff; }
+
+.has-bg-blue-dark {
+  background-color: #7831db;
+  color: #e2e3e9; }
+
+.has-text-blue-dark {
+  color: #7831db; }
+
+.has-border-blue-dark {
+  border-color: #7831db; }
+
+.has-bg-cyan-light {
+  background-color: #c2ecf4;
+  color: #2b2e3b; }
+
+.has-text-cyan-light {
+  color: #c2ecf4; }
+
+.has-border-cyan-light {
+  border-color: #c2ecf4; }
+
+.has-bg-cyan-base {
+  background-color: #99eeff;
+  color: #2b2e3b; }
+
+.has-text-cyan-base {
+  color: #99eeff; }
+
+.has-border-cyan-base {
+  border-color: #99eeff; }
+
+.has-bg-cyan-dark {
+  background-color: #40c3dd;
+  color: #2b2e3b; }
+
+.has-text-cyan-dark {
+  color: #40c3dd; }
+
+.has-border-cyan-dark {
+  border-color: #40c3dd; }
+
+.has-bg-green-light {
+  background-color: #95ecab;
+  color: #2b2e3b; }
+
+.has-text-green-light {
+  color: #95ecab; }
+
+.has-border-green-light {
+  border-color: #95ecab; }
+
+.has-bg-green-base {
+  background-color: #4dff79;
+  color: #2b2e3b; }
+
+.has-text-green-base {
+  color: #4dff79; }
+
+.has-border-green-base {
+  border-color: #4dff79; }
+
+.has-bg-green-dark {
+  background-color: #23c64b;
+  color: #2b2e3b; }
+
+.has-text-green-dark {
+  color: #23c64b; }
+
+.has-border-green-dark {
+  border-color: #23c64b; }
+
+.has-bg-magenta-light {
+  background-color: #f2b3d8;
+  color: #2b2e3b; }
+
+.has-text-magenta-light {
+  color: #f2b3d8; }
+
+.has-border-magenta-light {
+  border-color: #f2b3d8; }
+
+.has-bg-magenta-base {
+  background-color: #ff80ca;
+  color: #2b2e3b; }
+
+.has-text-magenta-base {
+  color: #ff80ca; }
+
+.has-border-magenta-base {
+  border-color: #ff80ca; }
+
+.has-bg-magenta-dark {
+  background-color: #db3194;
+  color: #2b2e3b; }
+
+.has-text-magenta-dark {
+  color: #db3194; }
+
+.has-border-magenta-dark {
+  border-color: #db3194; }
+
+.has-bg-red-light {
+  background-color: #ec9595;
+  color: #2b2e3b; }
+
+.has-text-red-light {
+  color: #ec9595; }
+
+.has-border-red-light {
+  border-color: #ec9595; }
+
+.has-bg-red-base {
+  background-color: #ff4d4d;
+  color: #2b2e3b; }
+
+.has-text-red-base {
+  color: #ff4d4d; }
+
+.has-border-red-base {
+  border-color: #ff4d4d; }
+
+.has-bg-red-dark {
+  background-color: #c52323;
+  color: #e2e3e9; }
+
+.has-text-red-dark {
+  color: #c52323; }
+
+.has-border-red-dark {
+  border-color: #c52323; }
+
+.has-bg-yellow-light {
+  background-color: #ecf2b3;
+  color: #2b2e3b; }
+
+.has-text-yellow-light {
+  color: #ecf2b3; }
+
+.has-border-yellow-light {
+  border-color: #ecf2b3; }
+
+.has-bg-yellow-base {
+  background-color: #f4ff80;
+  color: #2b2e3b; }
+
+.has-text-yellow-base {
+  color: #f4ff80; }
+
+.has-border-yellow-base {
+  border-color: #f4ff80; }
+
+.has-bg-yellow-dark {
+  background-color: #cddb31;
+  color: #2b2e3b; }
+
+.has-text-yellow-dark {
+  color: #cddb31; }
+
+.has-border-yellow-dark {
+  border-color: #cddb31; }
+
+.has-bg-white-light {
+  background-color: #ebecef;
+  color: #2b2e3b; }
+
+.has-text-white-light {
+  color: #ebecef; }
+
+.has-border-white-light {
+  border-color: #ebecef; }
+
+.has-bg-white-base {
+  background-color: #e2e3e9;
+  color: #2b2e3b; }
+
+.has-text-white-base {
+  color: #e2e3e9; }
+
+.has-border-white-base {
+  border-color: #e2e3e9; }
+
+.has-bg-white-dark {
+  background-color: #989aaa;
+  color: #2b2e3b; }
+
+.has-text-white-dark {
+  color: #989aaa; }
+
+.has-border-white-dark {
+  border-color: #989aaa; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,15 @@
+/**
+* * Main Colors
+*/
+/**
+* * Fonts and typography
+*/
+/**
+* * Spacing and Sizing
+*/
+/**
+* Precomputed linear color channel values for contrast calculations, 
+* shared by Andrew C. Dvorak here: https://github.com/material-components/material-components-web/blob/master/packages/mdc-theme/_constants.scss
+*/
+html {
+  background-color: #4dff79; }

@@ -1,0 +1,55 @@
+/**
+* ⭐️ This file contains all styles related to the landing page AKA #homepage id
+*/
+@import './../abstracts/functions';
+@import './../abstracts/keyframes';
+@import './../abstracts/mixins';
+@import './../abstracts/placeholders';
+@import './../abstracts/variables';
+
+// #homepage {
+//   div {
+//     @extend %center-box;
+//     text-align: center;
+//   }
+//   
+//   h1, h2 {
+//     font-family: $font-family-pixelated;
+//   }
+//   
+//   h1 {
+//     font-size: $font-size-x-large;
+//   }
+//   
+//   h2 {
+//     font-size: $font-size-large;
+//     margin-top: $font-size-x-large;
+//   }
+//   
+//   p {
+//     font-weight: 800;
+//   }
+// }
+
+// #homepage {
+//   #title  {
+//     h1 {
+//       @include add-shadow('text', 'black', 'shade');
+//       font-family: $font-family-pixelated;
+//       font-size: $font-size-x-large;
+//     }
+//   }
+//   p {
+//     @include add-shadow('text', 'black', 'shade');
+//     font-weight: 800;
+//   }
+//   #enter {
+//     font-family: $font-family-pixelated;
+//     font-size: $font-size-x-large;
+//     margin-top: 20vh;
+//     a {
+//       @include fickle-light('span', var(--message), 'white', 'base');
+//       //animation: flicker 3s cubic-bezier(0.4, 0, 0.2, 1) alternate infinite;
+//       text-shadow: create-shadow-text('green', 'base');
+//     }
+//   }

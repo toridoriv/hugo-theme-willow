@@ -1,0 +1,12 @@
+{
+  "name": "hugo-theme-willow",
+  "version": "1.0.0",
+  "description": "Hugo Theme",
+  "main": "index.js",
+  "scripts": {
+    "preview": "cd exampleSite && hugo serve --themesDir ../.. --bind=0.0.0.0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victoria Rodriguez <Nerdalot>",
+  "license": "MIT"
+}

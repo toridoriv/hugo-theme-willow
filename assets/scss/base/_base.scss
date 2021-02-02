@@ -1,0 +1,57 @@
+/**
+* ⭐️ This file contains very basic styles that will be applied inline
+*/
+@import './../abstracts/functions';
+@import './../abstracts/keyframes';
+@import './../abstracts/mixins';
+@import './../abstracts/placeholders';
+@import './../abstracts/variables';
+
+@import './../vendors/vendor-fonts';
+@import './../vendors/vendor-functions';
+@import './../vendors/vendor-variables';
+
+*,
+*::before,
+*::after {
+  box-sizing: $box-size;
+}
+
+html, body {
+  @extend %font-base;
+  background-attachment: fixed;
+  background-image: url('/images/background-retro.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: $margin-body;
+  min-height: $height-body;
+  width: $width-body;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  a {
+    text-decoration: $text-decoration-link;
+  }
+}
+
+nav {
+  
+  ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    position: relative;
+    li {
+      display: inline-block;
+      left: 3vw;
+      position: absolute;
+    }
+  }  
+}
+

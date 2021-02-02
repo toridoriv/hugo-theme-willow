@@ -1,0 +1,29 @@
+#desktop .icon {
+  padding: .2rem;
+  a {
+    color: $color-white;
+    font-size: .8rem;
+    font-weight: 800;
+    text-align: center;
+    //display: inline-block;
+  }
+  
+  img {
+    width: 4rem;
+  }
+  
+  span {
+    display: block;
+  }
+  
+  &:hover {
+    background-color: scale-color($color-cyan, $alpha: -80%);
+    outline: 1px solid scale-color($color-cyan, $alpha: -80%);
+  }
+}
+
+#desktop .icon.is-dragged {
+  background-color: scale-color($color-cyan, $alpha: -30%);
+  outline-offset: 0;
+  outline: 1px dotted scale-color($color-cyan, $alpha: -30%);
+}

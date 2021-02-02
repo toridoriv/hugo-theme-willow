@@ -1,0 +1,14 @@
+.window {
+  position: relative;
+  width: 300px;
+  iframe {
+    border: 0;
+  }
+  
+  .titlebar {
+    @include set-background-and-text($color-black);
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}

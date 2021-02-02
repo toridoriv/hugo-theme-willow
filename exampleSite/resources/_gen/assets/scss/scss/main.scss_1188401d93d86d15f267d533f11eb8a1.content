@@ -1,0 +1,290 @@
+@charset "UTF-8";
+/**
+* * ⭐️ Main Site Variables
+*/
+/**
+* * Colors
+*/
+/**
+* * Fonts and typography
+*/
+/**
+* * Responsiveness
+*/
+/**
+* * Sizing and positioning
+*/
+/**
+* * Layout
+*/
+/**
+* ⭐️ Variables composed with initial variables
+*/
+/**
+* * Map of colors
+*/
+/**
+* ⭐️ Color related utilities
+*/
+/**
+* create-single-palette
+* * Create shade and tint of a given color
+* @param: { String } $color-name
+* @param: { Color } $color-value
+* @param: { Number } $variation -  The percentage of variation from the base color to the new
+* @return: { Map } Base color name and value + shade and tint
+*/
+/**
+* create-palette
+* * Create a new palette of colors based on a list of colors
+* @param: { Map } $base-colors - A list of colors the user wants to use in its page
+* @param: { Number } $variation - The percentage of variation from the base color to the new
+* @return: { Map } Base colors + tints and shades
+*/
+/**
+* create-single-color
+* * Create a new color based on a name and a key
+* @param: { String } $color-name
+* @param: { String } $color-key
+* @return: { Color } Value of desired color
+*/
+/**
+* determine-light
+* * Modify the variation of the base color based on its type.
+* @param: { String } $key - If the type of color is base, tint or shade 
+* @param: { Number } $variation - The percentage of variation from the base color to the new
+* @return: { Number }
+*/
+/**
+* determine-saturation
+* * Modify the variation of the base color based on its type 
+* @param: { String } $key - If the type of color is base, tint or shade 
+* @param: { Number } $variation - The percentage of variation from the base color to the new
+* @return: { Number }
+*/
+/**
+* The following functions were taken from:
+* https://gist.github.com/sgomes/9c03a58976b90e00f4172a510b9807fa#file-functions-scss
+*/
+/**
+* luminance
+* * Calculate luminance of a given color
+* @param: { Color } $color
+*/
+/**
+* contrast
+* * Calculate contrast between two colors
+* @param: { Color } $background
+* @param: { Color } $foreground - Posible text color
+* @return: { Number } 
+*/
+/**
+* choose-contrast-color
+* * Determine the text color according to contrast
+* @param: { Color } $color
+*/
+/**
+* * Precomputed linear color channel values for contrast calculations, 
+* shared by Andrew C. Dvorak here: https://github.com/material-components/material-components-web/blob/master/packages/mdc-theme/_constants.scss
+*/
+.bg-black-light {
+  background-color: #64697d;
+  color: #ebecef; }
+
+.bg-black-light--hvr:hover {
+  background-color: #64697d;
+  color: #ebecef; }
+
+.bg-black-base {
+  background-color: #2b2e3b;
+  color: #ebecef; }
+
+.bg-black-base--hvr:hover {
+  background-color: #2b2e3b;
+  color: #ebecef; }
+
+.bg-black-dark {
+  background-color: #202128;
+  color: #ebecef; }
+
+.bg-black-dark--hvr:hover {
+  background-color: #202128;
+  color: #ebecef; }
+
+.bg-blue-light {
+  background-color: #cdb3f2;
+  color: #202128; }
+
+.bg-blue-light--hvr:hover {
+  background-color: #cdb3f2;
+  color: #202128; }
+
+.bg-blue-base {
+  background-color: #b580ff;
+  color: #202128; }
+
+.bg-blue-base--hvr:hover {
+  background-color: #b580ff;
+  color: #202128; }
+
+.bg-blue-dark {
+  background-color: #7831db;
+  color: #ebecef; }
+
+.bg-blue-dark--hvr:hover {
+  background-color: #7831db;
+  color: #ebecef; }
+
+.bg-cyan-light {
+  background-color: #c2ecf4;
+  color: #202128; }
+
+.bg-cyan-light--hvr:hover {
+  background-color: #c2ecf4;
+  color: #202128; }
+
+.bg-cyan-base {
+  background-color: #99eeff;
+  color: #202128; }
+
+.bg-cyan-base--hvr:hover {
+  background-color: #99eeff;
+  color: #202128; }
+
+.bg-cyan-dark {
+  background-color: #40c3dd;
+  color: #202128; }
+
+.bg-cyan-dark--hvr:hover {
+  background-color: #40c3dd;
+  color: #202128; }
+
+.bg-green-light {
+  background-color: #95ecab;
+  color: #202128; }
+
+.bg-green-light--hvr:hover {
+  background-color: #95ecab;
+  color: #202128; }
+
+.bg-green-base {
+  background-color: #4dff79;
+  color: #202128; }
+
+.bg-green-base--hvr:hover {
+  background-color: #4dff79;
+  color: #202128; }
+
+.bg-green-dark {
+  background-color: #23c64b;
+  color: #202128; }
+
+.bg-green-dark--hvr:hover {
+  background-color: #23c64b;
+  color: #202128; }
+
+.bg-magenta-light {
+  background-color: #f2b3d8;
+  color: #202128; }
+
+.bg-magenta-light--hvr:hover {
+  background-color: #f2b3d8;
+  color: #202128; }
+
+.bg-magenta-base {
+  background-color: #ff80ca;
+  color: #202128; }
+
+.bg-magenta-base--hvr:hover {
+  background-color: #ff80ca;
+  color: #202128; }
+
+.bg-magenta-dark {
+  background-color: #db3194;
+  color: #202128; }
+
+.bg-magenta-dark--hvr:hover {
+  background-color: #db3194;
+  color: #202128; }
+
+.bg-red-light {
+  background-color: #ec9595;
+  color: #202128; }
+
+.bg-red-light--hvr:hover {
+  background-color: #ec9595;
+  color: #202128; }
+
+.bg-red-base {
+  background-color: #ff4d4d;
+  color: #202128; }
+
+.bg-red-base--hvr:hover {
+  background-color: #ff4d4d;
+  color: #202128; }
+
+.bg-red-dark {
+  background-color: #c52323;
+  color: #ebecef; }
+
+.bg-red-dark--hvr:hover {
+  background-color: #c52323;
+  color: #ebecef; }
+
+.bg-yellow-light {
+  background-color: #ecf2b3;
+  color: #202128; }
+
+.bg-yellow-light--hvr:hover {
+  background-color: #ecf2b3;
+  color: #202128; }
+
+.bg-yellow-base {
+  background-color: #f4ff80;
+  color: #202128; }
+
+.bg-yellow-base--hvr:hover {
+  background-color: #f4ff80;
+  color: #202128; }
+
+.bg-yellow-dark {
+  background-color: #cddb31;
+  color: #202128; }
+
+.bg-yellow-dark--hvr:hover {
+  background-color: #cddb31;
+  color: #202128; }
+
+.bg-white-light {
+  background-color: #ebecef;
+  color: #202128; }
+
+.bg-white-light--hvr:hover {
+  background-color: #ebecef;
+  color: #202128; }
+
+.bg-white-base {
+  background-color: #e2e3e9;
+  color: #202128; }
+
+.bg-white-base--hvr:hover {
+  background-color: #e2e3e9;
+  color: #202128; }
+
+.bg-white-dark {
+  background-color: #989aaa;
+  color: #202128; }
+
+.bg-white-dark--hvr:hover {
+  background-color: #989aaa;
+  color: #202128; }
+
+.has-text {
+  color: #4dff79; }
+
+/* $medium-border: 1rem / 2 !default;
+$large-border: 1rem !default; */
+/* $large-spacing: 1rem * 3 !default;
+ */
+
+/*# sourceMappingURL=styles.css.map */

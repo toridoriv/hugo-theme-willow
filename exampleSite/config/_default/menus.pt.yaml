@@ -1,0 +1,26 @@
+main:
+  - identifier: início
+    name: Início
+    url: /
+    icon: home.svg
+    weight: 1
+  - identifier: sobre
+    name: Sobre
+    url: sobre
+    icon: home.svg
+    weight: 2
+  - identifier: projetos
+    name: Projetos
+    url: projetos
+    icon: home.svg
+    weight: 3
+  - identifier: blog
+    name: Blog
+    url: blog
+    icon: home.svg
+    weight: 4
+  - identifier: contato
+    name: Contato
+    url: contato
+    icon: home.svg
+    weight: 5

@@ -1,0 +1,26 @@
+<header class="bg-black-base is-lowercase">
+  <!-- 📍 Brand -->
+  <div>
+    <span>You are @</span>
+    <a class="has-text-green has-hvr-text-green-dark is-align-self-flex-start" href='{{ "/" | relURL }}'> 
+      {{ if .IsHome }}
+        Home
+        {{ else }}
+          {{ .Title }} 
+      {{ end }}
+    </a>
+  </div>
+    <!-- 🔚 Brand -->
+  <!-- 📍 Menu Navigation -->
+  <nav>
+    <ul>
+      {{ range .Site.Menus.main }}
+        <li>
+          <a href="{{ .URL | relURL }}" title="{{ .Name }}">{{ .Name }} · </a>
+        </li>
+      {{ end }}
+    </ul>
+    {{/*<button class="has-bg-transparent has-border-0 has-padding-0 has-text-grey-light is-lowercase"><i class="fas fa-bars"></i> Menu</button>*/}}
+    <!-- 🔚 Menu Navigation -->
+  </nav>
+</header>
