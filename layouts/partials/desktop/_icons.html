@@ -2,7 +2,7 @@
   {{ $count := 0 }}
   {{ range .Site.Menus.main }}
     <li class="icon" draggable="true" style="top: calc({{ $count }}rem * 6.4)">
-      <a class="text-shadow-black-shade" draggable="false" href="{{ .URL | relURL }}" title="{{ .Name }}">
+      <a draggable="false" href="{{ .URL | relURL }}" title="{{ .Name }}">
         <img alt="{{ .Name }} Icon" src="/images/icons/{{ .Pre }}" draggable="false"/>
         <span draggable="false">
           {{- .Name -}}
